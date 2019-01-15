@@ -14,7 +14,7 @@ package com.stackroute.unittest.pe4;
  */
 
 public class CountOccurence{
-        public static int countNumberOfTimes(String a, String b){
-            String small= a.replaceAll(b,"");
-            int count=a.length()-small.length();
+        public static int countNumberOfTimes(String string, String occurence){
+            String small= string.replaceAll(occurence,"");
+            int count=string.length()-small.length();
             return count; } }

@@ -17,9 +17,9 @@ import java.util.Arrays;
  */
 
 public class ExtractFromPara {
-    public static String sortWords(String a){
+    public static String sortWords(String paragraph){
         String sorted = "" ;
-        String[] words = a.split(" ");
+        String[] words = paragraph.split(" ");
         Arrays.sort(words);
         for (int i=0;i<words.length;i++){
                 sorted += words[i] + " "; }

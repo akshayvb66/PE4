@@ -15,8 +15,8 @@ package com.stackroute.unittest.pe4;
  */
 
 public class FindTheName {
-    public boolean findHarry(String input) {
-        String inputString=input.toLowerCase();
+    public boolean findHarry(String string) {
+        String inputString=string.toLowerCase();
         if(inputString==null) {
             return false; }
         else {

@@ -15,7 +15,7 @@ package com.stackroute.unittest.pe4;
  */
 
 public class ReplaceDWithF {
-    public static String replaceDandL(String a){
-        String s1= a.replaceAll("d","f");
-        String s2= s1.replaceAll("l","t");
-        return s2; } }
+    public static String replaceDandL(String string){
+        String str1= string.replaceAll("d","f");
+        String str2= str1.replaceAll("l","t");
+        return str2; } }

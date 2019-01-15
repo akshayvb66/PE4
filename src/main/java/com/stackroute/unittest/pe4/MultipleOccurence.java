@@ -17,14 +17,14 @@ import java.util.regex.Matcher;
  * @author Akshay Badiger
  */
 public class MultipleOccurence {
-    public static String countMultiple(String a, String b) {
-        String s="";
-        Pattern r = Pattern.compile(b);
+    public static String countMultiple(String inputString, String word) {
+        String string="";
+        Pattern r = Pattern.compile(word);
         int count = 0;
-        Matcher matcher = r.matcher(a);
+        Matcher matcher = r.matcher(inputString);
         while (matcher.find()) {
           { count++;
-          s =s+ "Found at " + matcher.start()+"-"+matcher.end()+"\n"; }
-        } return s;
+          string =string+ "Found at " + matcher.start()+"-"+matcher.end()+"\n"; }
+        } return string;
     }}
 

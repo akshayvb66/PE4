@@ -15,8 +15,8 @@ package com.stackroute.unittest.pe4;
  */
 
 public class StringTranspose {
-    public static String transposed(String s) {
-        String[] s1 = s.split(" ");
+    public static String transposed(String inputString) {
+        String[] s1 = inputString.split(" ");
         int num = s1.length;
         String reverseString = "";
 
